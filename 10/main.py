@@ -1,7 +1,8 @@
 import fileinput
+from collections import deque
 from functools import cache
 from pathlib import Path
-from collections import deque
+
 from z3 import IntVector, Optimize, sat
 
 ROOT_DIR = Path(__file__).resolve().parents[0]

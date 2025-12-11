@@ -42,8 +42,8 @@ def q1():
     count = 0
     ranges, ingredients = parse()
     for ing in ingredients:
-        for l, r in ranges:
-            if l <= ing <= r:
+        for lo, hi in ranges:
+            if lo <= ing <= hi:
                 count += 1
                 break
     return count
@@ -65,7 +65,7 @@ def q2():
                 break
         if not modified:
             break
-    count = sum([r - l + 1 for l, r in ranges])
+    count = sum([hi - lo + 1 for lo, hi in ranges])
     return count
 
 
