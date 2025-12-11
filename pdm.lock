@@ -573,13 +573,17 @@ files = [
 
 [[package]]
 name = "z3-solver"
-version = "4.12.4.0"
+version = "4.15.4.0"
 summary = "an efficient SMT solver library"
+dependencies = [
+    "importlib-resources; python_version < \"3.9\"",
+]
 files = [
-    {file = "z3-solver-4.12.4.0.tar.gz", hash = "sha256:f692c87437be8d585ebca124355cd6488d60331289f6bbebbde65cd497205128"},
-    {file = "z3_solver-4.12.4.0-py2.py3-none-macosx_11_0_arm64.whl", hash = "sha256:956daa69d3c7017f704c64d11c9ed880e06f177923e9af695a03034fc0e2e36d"},
-    {file = "z3_solver-4.12.4.0-py2.py3-none-macosx_11_7_x86_64.whl", hash = "sha256:6ffffdb41d714b6683cd87d8cf7eaa0e94eb40a6d5eca3636cb90a95d4e6760e"},
-    {file = "z3_solver-4.12.4.0-py2.py3-none-manylinux2014_x86_64.whl", hash = "sha256:03ce2639eced8a4d4bd432ebab15a6b1cb36119ba6a2854c01768ee2cd596c37"},
-    {file = "z3_solver-4.12.4.0-py2.py3-none-win32.whl", hash = "sha256:50011e915e97c4d262a010ea0403081b2af71c8474b27c53185407beb30b6ac7"},
-    {file = "z3_solver-4.12.4.0-py2.py3-none-win_amd64.whl", hash = "sha256:fbd7faea88bd32e6ba362913d1108d0bcb298df57154538a9bb2684757c35d0b"},
+    {file = "z3_solver-4.15.4.0-py3-none-macosx_13_0_arm64.whl", hash = "sha256:407e825cc9211f95ef46bdc8d151bf630e7ab2d62a21d24cd74c09cc5b73f3aa"},
+    {file = "z3_solver-4.15.4.0-py3-none-macosx_13_0_x86_64.whl", hash = "sha256:00bd10c5a6a5f6112d3a9a810d0799227e52f76caa860dafa5e00966bb47eb13"},
+    {file = "z3_solver-4.15.4.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7e103a6f203f505b8b8b8e5c931cc407c95b61556512d4921c1ddc0b3f41b08e"},
+    {file = "z3_solver-4.15.4.0-py3-none-manylinux_2_34_aarch64.whl", hash = "sha256:62c7e9cbdd711932301f29919ad9158de9b2f58b4d281dd259bbcd0a2f408ba1"},
+    {file = "z3_solver-4.15.4.0-py3-none-win32.whl", hash = "sha256:be3bc916545c96ffbf89e00d07104ff14f78336e55db069177a1bfbcc01b269d"},
+    {file = "z3_solver-4.15.4.0-py3-none-win_amd64.whl", hash = "sha256:00e35b02632ed085ea8199fb230f6015e6fc40554a6680c097bd5f060e827431"},
+    {file = "z3_solver-4.15.4.0.tar.gz", hash = "sha256:928c29b58c4eb62106da51c1914f6a4a55d0441f8f48a81b9da07950434a8946"},
 ]
